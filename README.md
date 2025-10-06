@@ -40,7 +40,7 @@ shap, lime – Interpretabilidad del modelo
 
 
 ## 🔍 Metodología
-1. Preprocesamiento
+* 1. Preprocesamiento
 
 Codificación de variables categóricas.
 
@@ -48,12 +48,12 @@ Estandarización de variables numéricas.
 
 División en train/test (80/20).
 
-2. Entrenamiento del Modelo
+* 2. Entrenamiento del Modelo
 Algoritmo: Random Forest Classifier
 
 Regularización adicional: Ridge (L2) para controlar la magnitud de los coeficientes y reducir overfitting.
 
-3. Evaluación
+* 3. Evaluación
 Se utilizan las siguientes métricas:
 
 Precisión (Accuracy)
@@ -66,12 +66,12 @@ AUC-ROC
 
 También se genera la matriz de confusión y curvas de ROC y Precision-Recall.
 
-4. Interpretabilidad
+* 4. Interpretabilidad
 SHAP: Permite explicar la contribución de cada variable a la predicción individual y global.
 
 LIME: Analiza explicaciones locales de decisiones puntuales del modelo.
 
-5. Visualización
+* 5. Visualización
 Importancia de características.
 
 Gráficos de métricas.
