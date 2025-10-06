@@ -1,9 +1,9 @@
-🧠 Credit Scoring Model – Random Forest + Interpretability
+## 🧠 Credit Scoring Model – Random Forest + Interpretability
 
 Este proyecto implementa un modelo de Scoring Crediticio utilizando Random Forest con regularización Ridge, enfocado en la evaluación del riesgo crediticio y la interpretabilidad del modelo mediante herramientas como SHAP y LIME.
 El objetivo es predecir la probabilidad de incumplimiento de pago de un cliente (default) y comprender los factores que más influyen en esa predicción.
 
-📋 Descripción del Proyecto
+## 📋 Descripción del Proyecto
 
 El scoring crediticio es una técnica empleada por instituciones financieras para estimar la probabilidad de que un cliente cumpla con sus obligaciones financieras.
 Este proyecto aplica Machine Learning supervisado para desarrollar un modelo explicable y con métricas sólidas de desempeño.
@@ -24,7 +24,7 @@ Interpretabilidad de predicciones con SHAP y/o LIME
 
 Visualización de resultados y reflexión sobre interpretabilidad
 
-⚙️ Tecnologías y Librerías Utilizadas
+## ⚙️ Tecnologías y Librerías Utilizadas
 
 Lenguaje: Python 3.10+
 
@@ -39,7 +39,7 @@ matplotlib, seaborn – Visualización de datos y resultados
 shap, lime – Interpretabilidad del modelo
 
 
-🔍 Metodología
+## 🔍 Metodología
 1. Preprocesamiento
 
 Codificación de variables categóricas.
